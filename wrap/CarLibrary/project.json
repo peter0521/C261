@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0-*",
+  "frameworks": {
+    "net451": {
+      "wrappedProject": "../../CarLibrary/CarLibrary.csproj",
+      "bin": {
+        "assembly": "../../CarLibrary/obj/{configuration}/CarLibrary.dll",
+        "pdb": "../../CarLibrary/obj/{configuration}/CarLibrary.pdb"
+      }
+    }
+  }
+}
