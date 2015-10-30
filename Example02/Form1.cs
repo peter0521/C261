@@ -21,6 +21,11 @@ namespace Example02
             InitializeComponent();
             Joan = new Guy() { Name = "joan", Cash = 3000 };
             Bob = new Guy() { Name = "bob", Cash = 5000 };
+            Guy1Name.Text = Joan.Name;
+            Guy1Cash.Text = Joan.Cash.ToString();
+
+            Guy2Name.Text = Bob.Name;
+            Guy2Cash.Text = Bob.Cash.ToString();
         }
 
         private void label1_Click(object sender, EventArgs e)

@@ -43,7 +43,7 @@
             // Guy1Givebutton
             // 
             this.Guy1Givebutton.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.Guy1Givebutton.Location = new System.Drawing.Point(53, 362);
+            this.Guy1Givebutton.Location = new System.Drawing.Point(48, 362);
             this.Guy1Givebutton.Name = "Guy1Givebutton";
             this.Guy1Givebutton.Size = new System.Drawing.Size(322, 88);
             this.Guy1Givebutton.TabIndex = 0;
@@ -55,7 +55,7 @@
             // 
             this.Guy1Name.AutoSize = true;
             this.Guy1Name.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.Guy1Name.Location = new System.Drawing.Point(126, 73);
+            this.Guy1Name.Location = new System.Drawing.Point(48, 73);
             this.Guy1Name.Name = "Guy1Name";
             this.Guy1Name.Size = new System.Drawing.Size(219, 45);
             this.Guy1Name.TabIndex = 1;
@@ -65,7 +65,7 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("新細明體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.textBox1.Location = new System.Drawing.Point(53, 291);
+            this.textBox1.Location = new System.Drawing.Point(48, 291);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(246, 51);
             this.textBox1.TabIndex = 2;
@@ -85,7 +85,7 @@
             // 
             this.Guy2Name.AutoSize = true;
             this.Guy2Name.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.Guy2Name.Location = new System.Drawing.Point(126, 164);
+            this.Guy2Name.Location = new System.Drawing.Point(48, 164);
             this.Guy2Name.Name = "Guy2Name";
             this.Guy2Name.Size = new System.Drawing.Size(219, 45);
             this.Guy2Name.TabIndex = 4;
@@ -95,7 +95,7 @@
             // 
             this.Guy1Cash.AutoSize = true;
             this.Guy1Cash.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.Guy1Cash.Location = new System.Drawing.Point(459, 73);
+            this.Guy1Cash.Location = new System.Drawing.Point(427, 73);
             this.Guy1Cash.Name = "Guy1Cash";
             this.Guy1Cash.Size = new System.Drawing.Size(199, 45);
             this.Guy1Cash.TabIndex = 5;
@@ -105,7 +105,7 @@
             // 
             this.Guy2Cash.AutoSize = true;
             this.Guy2Cash.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.Guy2Cash.Location = new System.Drawing.Point(459, 164);
+            this.Guy2Cash.Location = new System.Drawing.Point(427, 164);
             this.Guy2Cash.Name = "Guy2Cash";
             this.Guy2Cash.Size = new System.Drawing.Size(199, 45);
             this.Guy2Cash.TabIndex = 6;
@@ -122,20 +122,22 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(109, 244);
+            this.label1.Font = new System.Drawing.Font("新細明體", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label1.Location = new System.Drawing.Point(48, 249);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(86, 18);
+            this.label1.Size = new System.Drawing.Size(266, 28);
             this.label1.TabIndex = 8;
-            this.label1.Text = "label1名稱";
+            this.label1.Text = "輸入要付給Guy2的錢";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(427, 244);
+            this.label2.Font = new System.Drawing.Font("新細明體", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label2.Location = new System.Drawing.Point(427, 249);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(86, 18);
+            this.label2.Size = new System.Drawing.Size(266, 28);
             this.label2.TabIndex = 9;
-            this.label2.Text = "label2名稱";
+            this.label2.Text = "輸入要付給Guy1的錢";
             // 
             // Form1
             // 
