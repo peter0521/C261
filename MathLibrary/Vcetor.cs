@@ -8,6 +8,9 @@ namespace MathLibrary
 {
     public class Vcetor
     {
+        //靜態變數
+        public static int TotalVcetor { get; set; }
+
         public double X { get; set; }
         public double Y { get; set; }
 
@@ -15,12 +18,14 @@ namespace MathLibrary
         {
             this.X = x;
             this.Y = y;
+            Vcetor.TotalVcetor++;
         }
 
         public Vcetor()
         {
             this.X = 0.0;
             this.Y = 0.0;
+            Vcetor.TotalVcetor++;
         }
 
         public double Lenght

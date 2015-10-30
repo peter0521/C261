@@ -31,6 +31,8 @@ namespace Example03
             小名.Minus(1, 1).Minus(1, 1).add(new Vcetor(5, 5));
 
             Console.WriteLine("小名; = {0}, {1}", 小名.X, 小名.Y);
+
+            Console.WriteLine(Vcetor.TotalVcetor);
         }
     }
 }
