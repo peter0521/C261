@@ -8,7 +8,7 @@ namespace EmployeeLibrary
 {
     public class Employee
     {
-        private string firdtName;
+        private string firstName;
         private string secondName;
         private int baseSalary;
 
@@ -17,8 +17,8 @@ namespace EmployeeLibrary
 
         public string FirstName
         {
-            get { return this.firdtName; }
-            set { this.firdtName = value; }
+            get { return this.firstName; }
+            set { this.firstName = value; }
         }
 
         public string SecondName
@@ -43,6 +43,12 @@ namespace EmployeeLibrary
         public int Salary
         {
             get { return Benifity + BaseSalary; }
+        }
+
+        public Employee(string firstName, string secondName)
+        {
+            this.FirstName = firstName;
+            this.secondName = secondName;
         }
     }
 }
