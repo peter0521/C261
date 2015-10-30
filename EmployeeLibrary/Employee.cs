@@ -13,7 +13,6 @@ namespace EmployeeLibrary
         private int baseSalary;
 
         private int benifity;
-        private int salary;
 
         public string FirstName
         {
@@ -49,6 +48,12 @@ namespace EmployeeLibrary
         {
             this.FirstName = firstName;
             this.secondName = secondName;
+        }
+
+        public Employee()
+        {
+            this.FirstName = "Peter";
+            this.secondName = "Lee";
         }
     }
 }
